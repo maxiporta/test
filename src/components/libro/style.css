@@ -1,0 +1,105 @@
+.container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255, 0.01); 
+    border-radius: 25px;
+    max-width: 90%;
+    margin: 5px 0 50px 0;
+    padding: 10px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: space-between;
+    color: black;
+    background-color: white;
+    margin: 10px;
+    margin-top: 50px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px black;
+    background-color: rgb(187, 47, 47);
+  }
+  
+  .card-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 35px;
+    margin: 10px 0;
+    border-bottom: 1px solid black;
+    border-radius: 2px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(69, 160, 160, 0.1);
+    box-shadow: 1px 5px 15px rgb(0, 0, 0);
+  }
+  
+  .card-title {
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   border-radius: 10px;
+  }
+  
+  .card-title:hover {
+   background-position: right center;
+   color: rgb(0, 0, 0);
+   text-decoration: none;
+  }
+  
+  .card-text {
+    width: 90%;
+    height: auto;
+    border-radius: 2px;
+    font-size: 12px;
+    color: black;
+    font-weight: 700;
+    border-top: 10px ;
+  }
+  
+  .animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  .fast {
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn;
+  }
+  
+  h3{
+    font-size: 20px;
+    color: aliceblue;
+  }
+  
+  .ingreso_form{
+    margin-top: 30px;
+  }
+  
+  ::placeholder{
+    opacity: 0.5;
+  }
