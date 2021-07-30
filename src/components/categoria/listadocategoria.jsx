@@ -4,6 +4,7 @@ import './style.css'
 
 import IngresarCategoria from './ingresarcategoria';
 
+
 const url = 'http://localhost:3000/categoria/';
 
 export default function ListadoCategoria() {
